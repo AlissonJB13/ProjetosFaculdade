@@ -19,6 +19,13 @@ public class ReinoTeste {
       
       System.out.println(r.getIdReino());
       System.out.println(r.getNomeReino());
+      
+      Reino r1 = new Reino();
+      r1.setIdReino(2);
+      r1.setNomeReino("Vegetal");
+      
+      System.out.println(r1.getIdReino());
+      System.out.println(r1.getNomeReino());
     }
     
 }
